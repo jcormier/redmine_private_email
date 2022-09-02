@@ -21,6 +21,36 @@ for f in *; do cp -v $f plugins/redmine_private_email/app/views/mailer/"$f.orig"
 * Use git status to determine if any files have changed and updated the non .orig files appropriately
 
 
+# Example emails
+
+New issue:
+
+![](documentation/clipboard-202209021530-rbvvi.png)
+
+Issue updated:
+
+![](documentation/clipboard-202209021530-qgrp1.png)
+
+New document:
+
+![](documentation/clipboard-202209021534-ygoww.png)
+
+News:
+
+![](documentation/clipboard-202209021527-tlwl2.png)
+
+New wiki (No change):
+
+![](documentation/clipboard-202209021528-ktfa6.png)
+
+Wiki Updated (No change):
+
+![](documentation/clipboard-202209021528-qivuq.png)
+
+Forum post and update:
+
+![](documentation/clipboard-202209021529-ydsv8.png)
+
 # Rendered after issue edit
 Log of what templates get parsed when doing an issue update
 ```ruby
