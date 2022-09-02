@@ -5,5 +5,4 @@ Redmine::Plugin.register :redmine_private_email do
   version '0.0.1'
   url 'https://github.com/jcormier/redmine_private_email'
   author_url 'https://github.com/jcormier'
-  menu :top_menu, :polls, { controller: 'polls', action: 'index' }, caption: 'Polls'
 end
