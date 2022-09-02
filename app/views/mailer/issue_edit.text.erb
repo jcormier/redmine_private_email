@@ -1,3 +1,4 @@
 <%= l(:text_issue_updated, :id => "##{@issue.id}", :author => @journal.user) %>
+Open link to view changes
 ----------------------------------------
 <%= render :partial => 'issue', :formats => [:text], :locals => { :issue => @issue, :user => @user, :issue_url => @issue_url } %>
