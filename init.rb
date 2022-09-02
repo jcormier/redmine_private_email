@@ -1,9 +1,9 @@
-Redmine::Plugin.register :private_email do
+Redmine::Plugin.register :redmine_private_email do
   name 'Private Email plugin'
-  author 'Author name'
-  description 'This is a plugin for Redmine'
+  author 'Jonathan Cormier'
+  description 'Redmine plugin to remove potentially sensitive info from email notifications'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  url 'https://github.com/jcormier/redmine_private_email'
+  author_url 'https://github.com/jcormier'
   menu :top_menu, :polls, { controller: 'polls', action: 'index' }, caption: 'Polls'
 end
