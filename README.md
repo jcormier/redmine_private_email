@@ -9,6 +9,7 @@ Tested on redmine 4.2.3
 ```
 git clone https://github.com/jcormier/redmine_private_email.git
 ```
+* Ensure directory is named redmine_private_email
 * Restart redmine
 
 # To update to future version of redmine:
